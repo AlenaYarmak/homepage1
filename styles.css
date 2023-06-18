@@ -197,3 +197,34 @@ a {
 .project__link {
     padding-left: 10px;
 }
+
+/* Contact Section Styles */
+.contact {
+    background-color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+  
+.contact__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact__items {
+    display: flex;
+    flex-direction: column;
+}
+  
+.contact__item {
+    font-size: 18px;
+    color: #232625;
+    margin: 0 10px;
+}
+
+.contact__item a {
+    transition: .3s;
+}
+
+.contact__item a:hover {
+    color: #A4A69C;
+}
