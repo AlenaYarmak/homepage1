@@ -171,3 +171,29 @@ a {
     font-size: 14px;
     font-style: italic;
 }
+
+/* Projects */
+.project {
+    background: #f5f5f5;
+    padding: 60px 0;
+}
+
+.project__title {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.project__text {
+    font-size: 18px;
+}
+
+.project__subtitle {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.project__link {
+    padding-left: 10px;
+}
